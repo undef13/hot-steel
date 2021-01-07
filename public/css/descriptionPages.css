@@ -1,0 +1,86 @@
+/* ------------Main Setup------------ */
+.row {
+  margin: 0 !important;
+}
+
+.body {
+  font-size: 20px;
+}
+/* ------------End of Main Setup------------ */
+
+/* ------------Header Setup------------ */
+nav {
+  color: #929394 !important;
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  transition: 1s;
+}
+nav span {
+  font-size: 25px !important;
+}
+/* ------------End of Header Setup------------ */
+
+/* ------------Main Content Setup------------ */
+h3 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+/* ------------End of Main Content Setup------------ */
+
+/* ------------Gallery Setup------------ */
+#gallery img {
+  height: 75vw;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  #gallery img {
+    height: 35vw;
+  }
+}
+@media (min-width: 992px) {
+  #gallery img {
+    height: 18vw;
+  }
+}
+
+.carousel-item img {
+  height: 60vw;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  .carousel-item img {
+    height: 350px;
+  }
+}
+
+.gallery-wrapper div{
+    padding: 5px;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.gallery-wrapper div img {
+    transition: 1s;
+}
+
+.gallery-wrapper div:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* ------------End of Gallery Setup------------ */
+
+/* ------------Footer Setup------------ */
+footer h3 {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+h5 {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+hr.light {
+  border-top: 1px solid black;
+  width: 90%;
+}
+/* ------------End of Footer Setup------------ */

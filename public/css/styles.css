@@ -1,0 +1,168 @@
+/* Main Setup */
+body {
+  position: relative;
+}
+
+h5 {
+  font-family: "Kumbh Sans", sans-serif;
+}
+/* End of Main Setup */
+
+/* ------------Card Setup------------ */
+.image-container {
+  overflow: hidden;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #7c7c7d;
+  transition: 0.5s;
+  margin: 0 !important;
+}
+
+.card-link:hover {
+  color: #383838;
+}
+
+.card-link img {
+  transition: 1s;
+}
+
+.card-link:hover img {
+  transform: scale(1.1);
+}
+/* ------------End of Card Setup------------ */
+
+/* ------------Navigation Setup------------ */
+.nav-item {
+  margin: 0 50px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  transition: 0.5s;
+  color: #929394;
+}
+
+.nav-link:hover {
+  color: #383838;
+}
+/* ------------End of Navigation Setup------------ */
+
+.sellContainer .card {
+  margin: 10px !important;
+}
+
+
+/* ------------Masthead------------ */
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* ------------End of Masthead------------ */
+
+
+/* ------------Devider Setup------------ */
+.divider {
+  display: flex;
+  text-transform: uppercase;
+}
+.divider::before {
+  content: "";
+  flex: 1;
+}
+.divider::after {
+  content: "";
+  flex: 1;
+}
+
+.gradient {
+  align-items: stretch;
+  margin: 1em 0;
+  height: 2em;
+  line-height: 2em;
+  color: rgb(82, 81, 65);
+  font-family: 'Space Grotesk', sans-serif;
+  background: #d4d4d4;
+}
+.gradient::before {
+  background: linear-gradient(to right, white, #d4d4d4);
+}
+.gradient::after {
+  background: linear-gradient(to left, white, #d4d4d4);
+}
+/* ------------End of Devider Setup------------ */
+
+/* ------------Contacts Setup------------ */
+.icon {
+  font-size: 50px;
+}
+
+.contacts-container a {
+  color: #7c7c7d;
+  transition: 0.5s;
+  margin: 0 30px;
+}
+
+.contacts-container a:hover {
+  color: #2e2e2e;
+}
+
+
+/* ------------End of Contacts Setup------------ */
+
+/* ------------Footer Setup------------ */
+footer {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+hr.light {
+  border-top: 1px solid black;
+  width: 90%;
+}
+/* ------------End of Footer Setup------------ */
+
+@media (min-width: 34em) {
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (min-width: 48em) {
+  .card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar-nav .nav-link {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-item {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .gradient {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .font-weight-light {
+    font-size: 30px;
+  }
+}
